@@ -1,3 +1,14 @@
+# 🚀 Code-Matrix-Lite: Multi-Agent Refactoring Core
+
+> **⚠️ NDA & Open Source Disclaimer:**
+> This repository contains ONLY the *desensitized and abstracted core interfaces* of the internal Code-Matrix system. The full implementation, including the private AST parsers, local Milvus vector database integrations, and internal CI/CD webhook handlers, are strictly bound to our enterprise infrastructure and cannot be open-sourced due to Non-Disclosure Agreements (NDA).
+
+## 📖 Overview
+Code-Matrix is an advanced, ReAct-based multi-agent system designed for automated legacy codebase refactoring and self-healing unit test generation. It heavily utilizes LLMs with long-context windows for deep repository understanding.
+
+## 🏗️ Architecture Design
+The core workflow involves four primary agents in a closed feedback loop:
+
 graph TD
     User((Developer / CI Trigger))
     GitRepo[(Private Codebase)]
